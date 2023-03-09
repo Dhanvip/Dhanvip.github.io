@@ -15,7 +15,12 @@ font-size: 24px;
 color: rgb(0, 0, 0);
 }
 
-#smiley {
-width: 300px;
-height: auto;
+li {
+  display: inline-block;
+  color: #2867b1;
+  font-family: monospace;
+  width: auto;
+  font-size: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
