@@ -1,21 +1,21 @@
 p {
-    color: rgb(184, 182, 182);
+  color: rgb(91, 86, 86);
 }
 
 /* Additional CSS rules */
 body {
-  background-color: rgb(2, 1, 1);
+background-color: rgb(220, 220, 220);
 }
 
 h1 {
-  font-size: 24px;
+font-size: 24px;
 }
 
 .text {
-  color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
 }
 
 #smiley {
-  width: 300px;
-  height: auto;
+width: 300px;
+height: auto;
 }
