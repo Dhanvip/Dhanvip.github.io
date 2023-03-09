@@ -42,3 +42,11 @@ li {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+#my-photo {
+  height:350px;
+  width:350px;
+  image-rendering: -webkit-optimize-contrast;
+  border-radius: 50%;
+  object-fit: cover;
+}
