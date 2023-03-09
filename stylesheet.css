@@ -2,6 +2,11 @@ p {
   color: rgb(91, 86, 86);
 }
 
+#index-main-title {
+  font-weight: bold;
+  font-size: 2em;
+}
+
 /* Additional CSS rules */
 body {
 background-color: rgb(220, 220, 220);
