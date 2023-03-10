@@ -1,5 +1,5 @@
 p {
-  color: rgb(91, 86, 86);
+  color:rgb(0, 0, 0);
 }
 
 #index-main-title {
@@ -9,7 +9,7 @@ p {
 
 /* Additional CSS rules */
 body {
-background-color: rgb(220, 220, 220);
+background-color: rgb(198, 198, 203);
 vertical-align: middle;
 margin: 0;
 width: 100%;
