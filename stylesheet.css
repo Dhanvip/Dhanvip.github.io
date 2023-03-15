@@ -1,3 +1,6 @@
+
+
+/* This is for text inside hello and about */
 p {
   color:rgb(0, 0, 0);
   margin: 20px;
@@ -6,6 +9,7 @@ p {
     font-family: serif;
 }
 
+/* This is for  hello and about */
 #index-main-title {
   font-weight: bold;
   font-size: 2em;
@@ -35,10 +39,6 @@ h1 {
 font-size: 24px;
 }
 
-.text {
-color: rgb(0, 0, 0);
-}
-
 div.main {
   position: absolute;
   vertical-align: middle;
@@ -63,10 +63,12 @@ li {
   padding-right: 5%;
 }
 
-#my-photo {
-  height:300;
-  border-radius: 50%;
-  position: relative;
-  top: -100px;
 
+/* This is for my photo */
+
+#my-photo {
+  height:350px;
+  width:350px;
+  border-radius: 50%;
+  object-fit: cover;
 }
