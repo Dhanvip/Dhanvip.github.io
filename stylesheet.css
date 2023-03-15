@@ -1,3 +1,11 @@
+/* This is for my photo */
+
+#my-photo {
+  height:350px;
+  width:350px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 
 /* This is for text inside hello and about */
@@ -10,8 +18,9 @@ p {
     
 }
 
+/* This is for button translator*/
 .button {
-  background-color: #9f9f9f; /* Green */
+  background-color: #9f9f9f; 
   border: none;
   color: rgb(5, 5, 5);
   padding: 15px 15px;
@@ -22,18 +31,10 @@ p {
   margin-top : -80px;
 }
 
+/* This ensures button stays right */
 .align-right {
   text-align: right;
   border: 0;
-}
-
-q {
-  color:rgb(26, 99, 159);
-  margin: 20px;
-    padding: 20px;
-    word-wrap: break-word;
-    font-family: serif;
-    
 }
 
 /* This is for  hello and about */
@@ -45,6 +46,7 @@ q {
   font-family: Helvetica;
 }
 
+/* This is for bolded text inside hello and about me*/
 .custom-primary-color {
   color:#020f17;
   font-weight:600;
@@ -61,11 +63,7 @@ height: 100%;
 }
 
 
-
-h1 {
-font-size: 24px;
-}
-
+/* This is for my contact info*/
 div.main {
   position: absolute;
   vertical-align: middle;
@@ -90,12 +88,3 @@ li {
   padding-right: 5%;
 }
 
-
-/* This is for my photo */
-
-#my-photo {
-  height:350px;
-  width:350px;
-  border-radius: 50%;
-  object-fit: cover;
-}
