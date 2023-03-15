@@ -3,6 +3,7 @@ p {
   margin: 20px;
     padding: 20px;
     word-wrap: break-word;
+    font-family: serif;
 }
 
 #index-main-title {
@@ -10,11 +11,13 @@ p {
   font-size: 2em;
   margin: 10;
   padding: 10;
+  font-family: 'Lucida Sans';
 }
 
 .custom-primary-color {
   color:#020f17;
   font-weight:600;
+  font-family: serif;
 }
 
 /* Additional CSS rules */
