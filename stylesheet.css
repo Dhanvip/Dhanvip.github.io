@@ -1,15 +1,25 @@
 p {
   color:rgb(0, 0, 0);
+  margin: 20px;
+    padding: 20px;
+    word-wrap: break-word;
 }
 
 #index-main-title {
   font-weight: bold;
   font-size: 2em;
+  margin: 10;
+  padding: 10;
+}
+
+.custom-primary-color {
+  color:#020f17;
+  font-weight:600;
 }
 
 /* Additional CSS rules */
 body {
-background-color: rgb(198, 198, 203);
+background-color: rgb(255, 255, 255);
 vertical-align: middle;
 margin: 0;
 width: 100%;
@@ -17,9 +27,6 @@ height: 100%;
 }
 
 
-footer { 
-  display: block;
-}
 
 h1 {
 font-size: 24px;
@@ -55,5 +62,8 @@ li {
 
 #my-photo {
   height:300;
+  border-radius: 50%;
+  position: relative;
+  top: -100px;
 
 }
