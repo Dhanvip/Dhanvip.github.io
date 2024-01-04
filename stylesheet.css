@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap");
+/** Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+/** Basic styling */
+body { font: 300 16px/1.7 "Inter", -apple-system, BlinkMacSystemFont; color: #303030; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+
+/** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+
+/** `main` element */
+main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
+
+/** Images */
+img { max-width: 100%; vertical-align: middle; }
+
+/** Figures */
+figure > img { display: block; }
+
+figcaption { font-size: 14px; }
+
+
+/** Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+
+/** Links */
+a { color: #0c66dd; text-decoration: none; }
+
+a:visited { color: #1756a9; }
+
+a:hover { color: #333; text-decoration: underline; }
+
+.social-media-list a:hover { text-decoration: none; }
+
+.social-media-list a:hover .username { text-decoration: underline; }
+
+/** Blockquotes */
+blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
+
+blockquote > :last-child { margin-bottom: 0; }
+
+/** Code formatting */
+pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; background-color: #eef; }
+
+code { padding: 1px 5px; }
+
+pre { padding: 8px 12px; overflow-x: auto; }
+
+pre > code { border: 0; padding-right: 0; padding-left: 0; }
+
+/** Wrapper */
+.wrapper { max-width: -webkit-calc(800px - (30px * 2)); max-width: calc(800px - (30px * 2)); margin-right: auto; margin-left: auto; padding-right: 30px; padding-left: 30px; }
+
+@media screen and (max-width: 800px) { .wrapper { max-width: -webkit-calc(800px - (30px)); max-width: calc(800px - (30px)); padding-right: 15px; padding-left: 15px; } }
+
+/** Site header */
+.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
+
+.site-title { font-size: 26px; font-weight: 300; line-height: 61.2px; letter-spacing: -1px; margin-bottom: 0; float: left; }
+
+.site-title, .site-title:visited { color: #424242; }
+
+.site-nav { float: right; line-height: 61.2px; }
+
+.site-nav .nav-trigger { display: none; }
+
+.site-nav .menu-icon { display: none; }
+
+.site-nav .page-link { color: #333; line-height: 1.7; }
+
+.site-nav .page-link:not(:last-child) { margin-right: 20px; }
+
+/** Site footer */
+.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+
+.footer-heading { font-size: 18px; margin-bottom: 15px; }
+
+
+.footer-col-wrapper { font-size: 15px; color: #828282; margin-left: -15px; }
+
+.footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
+
+
+.page-content { padding: 30px 0; flex: 1; }
+
+.page-heading { font-size: 32px; }
+
+.post-list-heading { font-size: 28px; }
+
+.post-list { margin-left: 0; list-style: none; }
+
+.post-list > li { margin-bottom: 30px; }
+
+.post-meta { font-size: 14px; color: #828282; }
+
+.post-link { display: block; font-size: 24px; }
+
+h1 { font-weight: 700; }
+
+h2 { font-weight: 700; }
+
+
+.my-name { font-weight: 500; }
+
+.main-section { margin-top: 30px; letter-spacing: -1.22px; }
+
+.main-section-letter-spacing { letter-spacing: -1.22px; }
+
+#about-container { display: flex; flex-direction: row; }
+
+#about-avatar { width: 500px; padding-left: 20px; margin-top: 6px; }
+
+
+/* Internship Section */
+#projects-container { display: flex; flex-direction: row; align-items: center; justify-content: center; }
+
+#projects-container img {
+    max-width: 400px; /* Adjust the maximum width of the logo as needed */
+    height: auto;
+}
+
+
+
+/* Site Header/ Footer Section */
+.site-header { border: none; margin-top: 20px; }
+
+.site-title { font-weight: 600; font-size: 36px; letter-spacing: -2px; }
+
+
+/* Header Section */
+#header-container { display: flex; align-items: baseline; justify-content: space-between; text-align: center; }
+
+
+/* Footer Section */
+#footer-container { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+
+/* Copyright Section */
+.copyright { font-size: 13px; margin-top: 15px; }
+
+/* More about Me Section */
+#more-about-me {
+    margin-top: 30px; /* Adjust the margin as needed */
+}
+
+#social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social-links a {
+    margin-right: 10px; /* Adjust the margin between social links as needed */
+    text-decoration: none;
+}
+
+#social-links img {
+    width: 40px; /* Adjust the width of the social icons as needed */
+    height: 40px; /* Adjust the height of the social icons as needed */
+}
