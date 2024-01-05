@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Dhanvi Patel</title>
 <meta name="generator" content="Jekyll v4.0.1" />
 <meta property="og:title" content="Dhanvi Patel" />
@@ -42,6 +42,65 @@
     </div>
 </div>
 
+<!--Skills -->
+
+  <div class="skills-section">
+    <h2 class="main-section">Compétences</h2>
+
+    <!-- Tab Navigation -->
+    <div class="tab-navigation">
+        <span id="technical-skills-tab" class="tab" onclick="showTab('technical-skills')">Compétences techniques</span>
+        <span id="soft-skills-tab" class="tab active" onclick="showTab('soft-skills')">Compétences générales</span>
+    </div>
+
+    <!-- Soft Skills Section -->
+    <div id="soft-skills-section" class="skills-content active">
+        <div class="skill">
+            <label for="soft-skills-slider">Résolution de problème</label>
+            <input type="range" id="soft-skills-slider" value="97" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="soft-skills-slider">Organization</label>
+          <input type="range" id="soft-skills-slider" value="90" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="soft-skills-slider">Travail en équipe</label>
+          <input type="range" id="soft-skills-slider" value="95" disabled>
+        </div>
+
+       <div class="skill">
+          <label for="soft-skills-slider">Adaptabilité</label>
+          <input type="range" id="soft-skills-slider" value="90" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="soft-skills-slider">La créativité</label>
+          <input type="range" id="soft-skills-slider" value="93" disabled>
+        </div>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <div id="technical-skills-section" class="skills-content">
+        <div class="skill">
+          <label for="python-slider">Python</label>
+          <input type="range" id="python-slider" value="95" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="java-slider">Java</label>
+          <input type="range" id="java-slider" value="92" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="java-slider">HTML, CSS, JS</label>
+          <input type="range" id="java-slider" value="90" disabled>
+        </div>
+    </div>
+</div>
+
+  <!-- More About ME -->
 <div id="more-about-me">
   <h2 class="main-section"> Plus à propos de moi</h2>
   <div id="social-links">
@@ -64,8 +123,6 @@
   </div>
 </div>
 
-
-
 </div>
 </main><footer class="site-footer h-card">
 <data class="u-url" href="/"></data>
@@ -82,6 +139,7 @@
   </div>
 
 </footer>
+<script src="script.js"></script>
 </body>
 
 </html>

@@ -108,14 +108,14 @@ h2 { font-weight: 700; }
 
 #about-container { display: flex; flex-direction: row; }
 
-#about-avatar { width: 500px; padding-left: 20px; margin-top: 6px; }
+#about-avatar { width: 700px; padding-left: 30px; margin-top: 8px; }
 
 
 /* Internship Section */
 #projects-container { display: flex; flex-direction: row; align-items: center; justify-content: center; }
 
 #projects-container img {
-    max-width: 400px; /* Adjust the maximum width of the logo as needed */
+    max-width: 200px; /* Adjust the maximum width of the logo as needed */
     height: auto;
 }
 
@@ -156,4 +156,93 @@ h2 { font-weight: 700; }
 #social-links img {
     width: 40px; /* Adjust the width of the social icons as needed */
     height: 40px; /* Adjust the height of the social icons as needed */
+}
+
+/* Add this CSS code to your existing stylesheet.css or create a new stylesheet */
+
+/* Skills Section */
+.skills-section {
+  margin-top: 30px;
+}
+
+.tab-navigation {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ddd;
+  margin-right: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.tab.active {
+  background-color: #0c66dd;
+  color: #fff;
+}
+
+/* Fade effect for the content sections */
+.skills-content {
+  display: none;
+}
+
+.skills-content.active {
+  display: block;
+  animation: fadeEffect 0.5s;
+}
+
+/* Styling the sliders */
+input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+/* Dark gray color for the inside of the sliders */
+input[type="range"]::-webkit-slider-runnable-track,
+input[type="range"]::-moz-range-track {
+  background: #333;
+}
+
+/* Styling the slider thumbs */
+input[type="range"]::-webkit-slider-thumb,
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0c66dd;
+  cursor: pointer;
+}
+
+/* Display the skill values next to the sliders */
+.skill-value {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #333; /* Dark gray color for the skill value */
+}
+
+/* Animation for the fade effect */
+@keyframes fadeEffect {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }

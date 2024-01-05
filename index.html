@@ -35,14 +35,72 @@
     <div id="about-avatar"><img src="IMG_6715.jpg" alt="Dhanvi Patel"></div>
 </div>
 
-
-<h2 class="main-section"> Internships</h2>
+<!-- Experience -->
+<h2 class="main-section"> Internship Experience</h2>
 <div id="projects-container">
   <img src="Logo-Boeing.png" alt="Boeing">
     </div>
 </div>
 
+<!-- Skills -->
 
+  <div class="skills-section">
+    <h2 class="main-section">Skills</h2>
+
+    <!-- Tab Navigation -->
+    <div class="tab-navigation">
+        <span id="technical-skills-tab" class="tab" onclick="showTab('technical-skills')">Technical Skills</span>
+        <span id="soft-skills-tab" class="tab active" onclick="showTab('soft-skills')">Soft Skills</span>
+    </div>
+
+    <!-- Soft Skills Section -->
+    <div id="soft-skills-section" class="skills-content active">
+        <div class="skill">
+            <label for="soft-skills-slider">Problem Solving</label>
+            <input type="range" id="soft-skills-slider" value="97" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="soft-skills-slider">Organization</label>
+          <input type="range" id="soft-skills-slider" value="90" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="soft-skills-slider">Team Work</label>
+          <input type="range" id="soft-skills-slider" value="95" disabled>
+        </div>
+
+       <div class="skill">
+          <label for="soft-skills-slider">Adaptibility</label>
+          <input type="range" id="soft-skills-slider" value="90" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="soft-skills-slider">Creativity</label>
+          <input type="range" id="soft-skills-slider" value="93" disabled>
+        </div>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <div id="technical-skills-section" class="skills-content">
+        <div class="skill">
+          <label for="python-slider">Python</label>
+          <input type="range" id="python-slider" value="95" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="java-slider">Java</label>
+          <input type="range" id="java-slider" value="92" disabled>
+        </div>
+
+        <div class="skill">
+          <label for="java-slider">HTML, CSS, JS</label>
+          <input type="range" id="java-slider" value="90" disabled>
+        </div>
+    </div>
+</div>
+
+<!-- More about me -->
 <div id="more-about-me">
   <h2 class="main-section">More about me</h2>
   <div id="social-links">
@@ -66,7 +124,6 @@
 </div>
 
 
-
 </div>
 </main><footer class="site-footer h-card">
 <data class="u-url" href="/"></data>
@@ -83,6 +140,7 @@
   </div>
 
 </footer>
+<script src="script.js"></script>
 </body>
 
 </html>
